@@ -25,7 +25,7 @@ if(sort){
     // let sortFix = sort.replace("," , " ")
     let sortFix = sort.split(",").join(" ")
     // queryObject.sort(sortFix);
-    apiData = apiData.select(sortFix)     // ye sorting k liye update kiya 
+    apiData = apiData.sort(sortFix)     // ye sorting k liye update kiya 
 }
 
 if(select){
